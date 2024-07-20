@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles/styles.css" />
+    <title>appie.</title>
+    <script src="src/scripts/app.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container flex-display space-between-center header-container">
+        <div class="left-side flex-display space-between-center">
+          <div class="logo-container">
+            <img src="src/assets/logo.png" alt="logo" />
+          </div>
+          <nav class="nav-links">
+            <ul class="flex-display space-between-center">
+              <li>
+                <a href="#">
+                  home
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6 down-arrow"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li><a href="#">service</a></li>
+              <li>
+                <a href="#">
+                  pages
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6 down-arrow"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  news
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6 down-arrow"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="right-side">
+          <button class="btn primary-button">Get Started</button>
+        </div>
+      </div>
+    </header>
+    <main class="hero">
+      <div class="container hero-container grid-2-col">
+        <div class="left-side">
+          <h1 class="hero-title">
+            Ready to launch your app in one,
+            <span class="special-word">Application</span>
+          </h1>
+          <p class="hero-description">
+            Find the best application in the appie.
+          </p>
+          <div
+            class="quick-to-call-action-form flex-display space-between-center"
+          >
+            <label for="email"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6 message"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+                />
+              </svg>
+            </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="info@appie.com"
+            />
+            <div class="submit-arrow">
+              <div class="btn primary-button flex-display align-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="size-6 right-arrow"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M11.03 3.97a.75.75 0 0 1 0 1.06l-6.22 6.22H21a.75.75 0 0 1 0 1.5H4.81l6.22 6.22a.75.75 0 1 1-1.06 1.06l-7.5-7.5a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 0 1 1.06 0Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="feedback flex-display">
+            <div class="pictures-container">
+              <img src="src/assets/people/customer-1.jpg" alt="customer-1" />
+              <img src="src/assets/people/customer-2.jpg" alt="customer-2" />
+              <img src="src/assets/people/customer-4.jpg" alt="customer-4" />
+              <img src="src/assets/people/customer-5.jpg" alt="customer-5" />
+            </div>
+            <div class="feedback-number">
+              <span class="number-of-feedback">30K</span>
+              <p>feedback</p>
+            </div>
+          </div>
+        </div>
+        <div class="right-side hero-image-container">
+          <img src="src/assets/hero.png" alt="hero-image" />
+        </div>
+      </div>
+    </main>
+    <section class="how-does-it-work" id="how-it-work">
+      <div class="container">
+        <div class="title-container">
+          <h2 class="how-does-it-work-title">How does it work</h2>
+          <div class="flex-display space-between-center">
+            <p>The full monty spiffing good time no biggie cack grub fantastic</p>
+            <button class="btn secondary-button flex-display align-center">View all Features <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="size-6 right-arrow"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M11.03 3.97a.75.75 0 0 1 0 1.06l-6.22 6.22H21a.75.75 0 0 1 0 1.5H4.81l6.22 6.22a.75.75 0 1 1-1.06 1.06l-7.5-7.5a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 0 1 1.06 0Z"
+                clip-rule="evenodd"
+              />
+            </svg></button>
+          </div>
+        </div>
+        <div class="row-of-cards-container" id="row-of-cards-1">
+          
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
