@@ -11,10 +11,15 @@
 /* REUSABLE CSS */
 :root {
   --dark-text-color: #0e1133;
-  --gray-color: #ccc;
+  --gray-color: #777;
   --hero-bg-color: #eef1f6;
   --primary-btn-color: #ff3e66;
+  --secondary-btn-color: #bbb;
   --white-color: #fff;
+}
+
+p {
+  color: var(--gray-color);
 }
 
 .container {
@@ -70,11 +75,11 @@ a:visited {
   gap: 0.8rem;
   background-color: transparent;
   font-size: 1rem;
-  border: 1px solid var(--gray-color);
+  border: 1px solid var(--secondary-btn-color);
 }
 
 .secondary-button:hover {
-  background-color: var(--gray-color);
+  background-color: var(--secondary-btn-color);
 }
 
 .grid-2-col {
@@ -163,6 +168,8 @@ ul li {
   width: 80%;
   padding: 0.5rem;
   border: none;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .quick-to-call-action-form input:focus-visible {
@@ -246,6 +253,10 @@ ul li {
   margin-bottom: 3rem;
 }
 
+.title-container p {
+  color: var(--gray-color);
+}
+
 .how-does-it-work-title {
   font-size: 3rem;
 }
@@ -278,8 +289,70 @@ ul li {
 
 .card p {
   margin-bottom: 2rem;
+  color: var(--gray-color);
 }
 /* END OF HOW DOES IT WORK SECTION */
+
+/* ABOUT SECTION */
+.about {
+  padding-top: 5rem;
+}
+
+.about-container {
+  background-color: var(--hero-bg-color);
+  height: 70vh;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.about .text-container {
+  margin-top: 4rem;
+}
+
+.about .image-container {
+  align-self: center;
+}
+
+.about img {
+  object-fit: cover;
+}
+
+.title-special-text {
+  color: var(--primary-btn-color);
+  font-size: 1rem;
+  display: inline-block;
+  margin-bottom: 0.3rem;
+}
+
+.about-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.about-text {
+  font-size: 1rem;
+  color: var(--gray-color);
+  margin-bottom: 2.4rem;
+}
+
+.advantages {
+  
+}
+
+.adv-card {
+  width: calc(100% / 2);
+  gap: 1rem;
+  align-items: start;
+}
+
+.correct-cont {
+  background-color: #10B981;
+  width: 30px;
+  height: 26px;
+  border-radius: 50%;
+
+}
+/* END OF ABOUT SECTION */
 
 @media (max-width: 1440px) {
   .hero-container {
