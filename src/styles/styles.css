@@ -87,6 +87,10 @@ a:visited {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.section-margin-top {
+  margin-top: 9rem;
+}
+
 img {
   width: 100%;
 }
@@ -245,10 +249,6 @@ ul li {
 
 /* HOW DOES IT WORK SECTION */
 
-.how-does-it-work {
-  padding-top: 5rem;
-}
-
 .title-container {
   margin-bottom: 3rem;
 }
@@ -271,12 +271,12 @@ ul li {
   width: 100%;
   border: 1px solid var(--gray-color);
   padding: 2rem 4rem 2rem 2rem;
-  border-radius:  2rem;
+  border-radius: 2rem;
 }
 
 .card .logo-container {
   padding: 1rem;
-  background-color: #60A5FA;
+  background-color: #60a5fa;
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -294,9 +294,6 @@ ul li {
 /* END OF HOW DOES IT WORK SECTION */
 
 /* ABOUT SECTION */
-.about {
-  padding-top: 5rem;
-}
 
 .about-container {
   background-color: var(--hero-bg-color);
@@ -335,10 +332,6 @@ ul li {
   margin-bottom: 2.4rem;
 }
 
-.advantages {
-  
-}
-
 .adv-card {
   width: calc(100% / 2);
   gap: 1rem;
@@ -346,13 +339,75 @@ ul li {
 }
 
 .correct-cont {
-  background-color: #10B981;
+  background-color: #10b981;
   width: 30px;
   height: 26px;
   border-radius: 50%;
-
 }
 /* END OF ABOUT SECTION */
+
+/* FEATURES SECTION */
+
+.features {
+  background-color: var(--dark-text-color);
+  padding: 8rem 0;
+}
+
+.features .title {
+  font-size: 4rem;
+  color: var(--white-color);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.features h3 {
+  color: var(--white-color);
+  font-size: 2rem;
+}
+
+.features p {
+  color: #ddd;
+}
+
+.features .first-paragraph {
+  text-align: center;
+}
+
+.features .features-points {
+  margin-top: 4rem;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 10rem;
+}
+
+.features .feature-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.features .feature-cards .card {
+  padding: 2rem;
+  border: 1px solid var(--gray-color);
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.features .bullet-point {
+  background-color: var(--primary-btn-color);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.features .card:nth-of-type(2) .bullet-point {
+  background-color: #60a5fa;
+}
+
+.features .card:nth-of-type(3) .bullet-point {
+  background-color: #10b981;
+}
+
+/* END OF FEATURES SECTION */
 
 @media (max-width: 1440px) {
   .hero-container {
