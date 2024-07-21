@@ -300,7 +300,7 @@ ul li {
 
 .about-container {
   background-color: var(--hero-bg-color);
-  height: 70vh;
+  height: 619px;
   border-radius: 1rem;
   overflow: hidden;
 }
