@@ -23,6 +23,7 @@ p {
 }
 
 .container {
+  width: 90%;
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -300,6 +301,7 @@ ul li {
   height: 619px;
   border-radius: 1rem;
   overflow: hidden;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 .about .text-container {
@@ -375,7 +377,7 @@ ul li {
 
 .features .features-points {
   margin-top: 4rem;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 10rem;
 }
 
@@ -415,4 +417,19 @@ ul li {
   }
 }
 
+@media (max-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .about-container {
+    height: unset;
+    padding: 1.2rem 0;
+  }
+  .about-container img {
+    width: 70%;
+  }
+}
 /* new things */
